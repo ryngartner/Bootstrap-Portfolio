@@ -10,11 +10,13 @@
 </head>
 
 <body>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="index.html" id="logo">Ryan Gartner</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
                 </button>
               
                 <div class="collapse navbar-collapse">
@@ -35,36 +37,42 @@
    
 
     <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                      <label for="name">Name</label>
-                      <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                      <label for="email">Email</label>
-                      <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required"> 
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit">
-            </form>
-
-        </section>
-
-    </div>
-
-    <footer>
-        <div class="container">
-            Copyright &copy;
+        <div class="row">
+            <section class="col-md-12 main-section">
+                <h1>Contact</h1>
+                    <form id="contact-form">
+                        <ul>
+                            <li>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required"> 
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required="required"></textarea>
+                            </li>
+                        </ul>
+                        <input type="submit">
+                    </form>
+            
+            </section>
         </div>
-    </footer>
+    </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <footer>
+                <div class="container">
+                    Copyright &copy Ryan Gartner 2018
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+    
 </body>
 </html>
 
