@@ -6,9 +6,6 @@ body {
     background: url("../images/concrete_seamless.png");
 }
 
-* {
-    box-sizing: border-box;
-}
 
 .container {
     width:100%;
@@ -24,9 +21,6 @@ p {
     margin-bottom: 20px;
 }
 
-p:last-child {
-    margin-bottom: 0;
-}
 
 h1,
 h2,
@@ -76,9 +70,6 @@ nav a {
     border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
-    border-left: 0 none;
-}
 
 footer {
     padding: 30px 0;
@@ -126,10 +117,6 @@ h3, h2 {
     overflow: auto;
 }
 
-.work:nth-child(even) {
-    margin-right: 40px;
-}
-
 .work img {
     width: 100%;
     border: 0 none;
@@ -148,14 +135,6 @@ h3, h2 {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
-}
-
-.auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
 }
 
 /* contact page */
