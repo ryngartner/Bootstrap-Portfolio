@@ -3,7 +3,8 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("../images/matthew-hamilton-147386-unsplash.jpg");
+    background-size: 100%;
 }
 
 
@@ -12,6 +13,7 @@ body {
     max-width: 960px;
     margin:0 auto;
     clear: both;
+
 }
 
 h1,
@@ -27,7 +29,7 @@ h2,
 h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #425a6d;
 }
 
 h1 {
@@ -53,7 +55,7 @@ h3 {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #425a6d;
 }
 
 nav {
@@ -79,7 +81,7 @@ footer {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #425a6d;
     height: 50px;
 }
 
@@ -103,8 +105,9 @@ h3, h2 {
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    background: #ffffff;
+    background: lightgrey;
     border: 1px solid #dddddd;
+    opacity: .95;
 }
 
 /*portfolio page*/
@@ -115,12 +118,13 @@ h3, h2 {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    /* opacity: .9; */
 }
 
 .work img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .work h3 {
@@ -133,7 +137,7 @@ h3, h2 {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: #425a6d;
     border-bottom: 0;
 }
 
@@ -173,6 +177,6 @@ input[type=submit] {
     font-size: 18px;
     color: #ffffff;
     cursor: point;
-    background: #4aaaa5;
+    background: #425a6d;
     border: 0 none;
 }
