@@ -9,27 +9,11 @@ body {
 
 
 .container {
-    width:100%;
+    width:80%;
     max-width: 960px;
     margin:0 auto;
     clear: both;
 
-}
-
-h1,
-h2,
-h3,
-p {
-    margin-bottom: 20px;
-}
-
-
-h1,
-h2,
-h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: 700;
-    color: #425a6d;
 }
 
 h1 {
@@ -38,25 +22,16 @@ h1 {
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
 }
-
 h2,
 h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #425a6d;
     font-size: 22px;
 }
-
-/* #logo {
-    float: right;
-    width: 250px;
-    height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    background: #425a6d;
-} */
+p {
+    margin-bottom: 20px;
+}
 
 nav {
     width: 100;
@@ -119,17 +94,19 @@ h3, h2 {
 
 .work {
     position: relative;
-    float: left;
+    /* float: left; */
     width: 274px;
-    margin: 20px 0 25px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: auto;
-    /* opacity: .9; */
 }
 
 .work img {
     width: 100%;
     border: 0 none;
-    opacity: 1;
+    position: center;
+    padding-bottom: 5%;
+    /* opacity: 1; */
 }
 
 .work h3 {
