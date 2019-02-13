@@ -121,6 +121,7 @@ h3, h2 {
     text-align: center;
     background: #425a6d;
     border-bottom: 0;
+    opacity: .9;
 }
 
 /* contact*/
@@ -166,4 +167,8 @@ input[type=submit] {
     cursor: point;
     background: #425a6d;
     border: 0 none;
+}
+
+.fab {
+    ;
 }
