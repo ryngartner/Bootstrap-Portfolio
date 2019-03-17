@@ -95,8 +95,9 @@ h3, h2 {
 
 .work {
     position: relative;
-    /* float: left; */
-    width: 274px;
+    float: left;
+    /* width: 274px; */
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
