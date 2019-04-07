@@ -129,7 +129,7 @@ h3, h2 {
 
 
 /* technologies */
-* { box-sizing: border-box; }
+/* * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
 
@@ -169,12 +169,12 @@ body { font-family: sans-serif; }
   text-align: center;
 }
 
-.cube__face--front  { background: hsla(  0, 100%, 50%, 0.7); }
-.cube__face--right  { background: hsla( 60, 100%, 50%, 0.7); }
-.cube__face--back   { background: hsla(120, 100%, 50%, 0.7); }
-.cube__face--left   { background: hsla(180, 100%, 50%, 0.7); }
-.cube__face--top    { background: hsla(240, 100%, 50%, 0.7); }
-.cube__face--bottom { background: hsla(300, 100%, 50%, 0.7); }
+.cube__face--front  { background: rgba(105, 105, 92, 0.7);}
+.cube__face--right  { background: rgba(105, 105, 92, 0.7); }
+.cube__face--back   { background: rgba(105, 105, 92, 0.7); }
+.cube__face--left   { background: rgba(105, 105, 92, 0.7); }
+.cube__face--top    { background: rgba(105, 105, 92, 0.7); }
+.cube__face--bottom { background: rgba(105, 105, 92, 0.7); }
 
 .cube__face--front  { transform: rotateY(  0deg) translateZ(100px); }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(100px); }
@@ -183,7 +183,129 @@ body { font-family: sans-serif; }
 .cube__face--top    { transform: rotateX( 90deg) translateZ(100px); }
 .cube__face--bottom { transform: rotateX(-90deg) translateZ(100px); }
 
-label { margin-right: 10px; }
+label { margin-right: 10px; } */
+
+@-webkit-keyframes logomorph {
+    0% {
+      opacity:1;
+    }
+    25% {
+      opacity:1;
+    }
+    75% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+    }
+    
+    @-moz-keyframes logomorph {
+    0% {
+      opacity:1;
+    }
+    25% {
+      opacity:1;
+    }
+    75% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+    }
+    
+    @-o-keyframes logomorph {
+    0% {
+      opacity:1;
+    }
+    25% {
+      opacity:1;
+    }
+    75% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+    }
+    
+    @keyframes logomorph {
+    0% {
+      opacity:1;
+    }
+    25% {
+      opacity:1;
+    }
+    75% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+    }
+    
+    #mainlogo {
+      position:relative;
+      height:281px;
+      width:450px;
+      margin:0 auto;
+    }
+    #mainlogo img {
+      position:absolute;
+      left:0;
+    }
+    
+    #mainlogo img.logotop {
+      -webkit-animation-name: logomorph;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-duration: 6s;
+      -webkit-animation-direction: alternate;
+    
+      -moz-animation-name: logomorph;
+      -moz-animation-timing-function: ease-in-out;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-duration: 6s;
+      -moz-animation-direction: alternate;
+    
+      -o-animation-name: logomorph;
+      -o-animation-timing-function: ease-in-out;
+      -o-animation-iteration-count: infinite;
+      -o-animation-duration: 6s;
+      -o-animation-direction: alternate;
+    
+      animation-name: logomorph;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 6s;
+      animation-direction: alternate;
+    }
+    #mainlogo img.logobottom {
+        -webkit-animation-name: logomorph;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-direction: alternate;
+      
+        -moz-animation-name: logomorph;
+        -moz-animation-timing-function: ease-in-out;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-duration: 3s;
+        -moz-animation-direction: alternate;
+      
+        -o-animation-name: logomorph;
+        -o-animation-timing-function: ease-in-out;
+        -o-animation-iteration-count: infinite;
+        -o-animation-duration: 3s;
+        -o-animation-direction: alternate;
+      
+        animation-name: logomorph;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        animation-direction: alternate;
+      }
 
 /* contact*/
 
